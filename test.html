@@ -1,0 +1,25 @@
+<HTML>
+    <HEAD>
+        <TITLE>GitHub repository informations</TITLE>
+        <LINK rel="stylesheet" href="/style.css" type="text/css">
+        <LINK href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        
+    </HEAD>
+    <BODY>
+        <CENTER>
+            <HEADER class="mainDIV">
+                <FONT class="title1">Analysis of the GitHub repositories</FONT><BR><BR><BR>
+                Use this page to search for a GitHub repository<BR>
+                based on its name.
+            </HEADER>
+            <DIV class="formDIV" id="formDIV">
+                <FORM method="GET" action="/cgi-bin/test.cgi" name="parameters" enctype="multipart/form-data">
+                    Enter a GitHub repository name <BR><BR>
+                    <INPUT class="search" id="searchItem" name="searchItem" type="text" required><BR>
+                    <INPUT class="input" type="reset" name="clear" value="Clear">
+                    <INPUT class="input" type="submit" name="submit" value="Search">
+                </FORM>
+            </DIV>
+        </CENTER>
+    </BODY>
+</HTML>
